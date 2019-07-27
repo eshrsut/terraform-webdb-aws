@@ -21,7 +21,7 @@ source ~/.bash_profile
 Clone this repo and Initialize Terraform
 ```
 git clone https://github.com/whit1206/terraform-webdb-aws.git
-cd tf-webdb-aws
+cd terraform-webdb-aws
 terraform init
 ```
 
