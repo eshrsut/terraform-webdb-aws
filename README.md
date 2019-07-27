@@ -10,7 +10,7 @@ Install Terraform (example command is for OSX w/ brew installed, but Terraform c
 brew install terraform
 ```
 
-Export your AWS IAM key and secret access key into your environment (example assumes bash)
+Export your AWS IAM key and secret access key into your environment (example assumes bash).
 Make sure to change [YOUR_IAM_ACCESS_KEY_ID] and [YOUR_IAM_SECRET_ACCESS_KEY] to your account specifics
 ```
 echo 'export AWS_ACCESS_KEY_ID="[YOUR_IAM_ACCESS_KEY_ID]"' >> ~/.bash_profile
