@@ -25,6 +25,8 @@ cd terraform-webdb-aws
 terraform init
 ```
 
+If it worked you should see "Terraform has been successfully initialized!"
+
 # Deploying Your Infrastructure
 To deploy our two tier architecture
 ```
