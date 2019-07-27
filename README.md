@@ -28,5 +28,11 @@ terraform init
 # Deploying Your Infrastructure
 To deploy our two tier architecture
 ```
-terraform deploy
+terraform apply
+```
+
+# Removing Your Infrastructure
+To remove all traces of our two tier architecture
+```
+terraform destroy
 ```
