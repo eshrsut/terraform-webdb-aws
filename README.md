@@ -5,7 +5,7 @@ Using Terraform, the files in this folder setup a two-tier architecture on AWS. 
 # First Time Initializing (Do this once)
 Assumes you have admin locally and a valid AWS IAM account with EC2 access and you have a valid key and private key.
 
-Install Terraform (example command is for OSX, but Terraform can be downloaded [here](https://www.terraform.io/downloads.html))
+Install Terraform (example command is for OSX w/ brew installed, but Terraform can be directly downloaded [here](https://www.terraform.io/downloads.html))
 ```bash
 brew install terraform
 ```
@@ -20,7 +20,7 @@ source ~/.bash_profile
 
 Clone this repo and Initialize Terraform
 ```
-git clone https://github.com/whit1206/tf-webdb-aws.git
+git clone https://github.com/whit1206/terraform-webdb-aws.git
 cd tf-webdb-aws
 terraform init
 ```
@@ -35,4 +35,10 @@ terraform apply
 To remove all traces of our two tier architecture
 ```
 terraform destroy
+```
+
+# Running Tests
+To perform a practice run
+```
+terraform plan
 ```
